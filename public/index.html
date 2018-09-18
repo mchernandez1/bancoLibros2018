@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- LINKS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/parallax.css">
+
+  <title>Banco de Libros</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+
+<body>
+  <header>
+    <div class="navegacion" id="iefix">
+      <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #31b5bd;">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/ANDAR.png" width="100" height="40" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reserva de libros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Donación de materiales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nuestro equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Ingresar
+        </button>
+
+        <div id="reactModal"> <!-- reactModal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Ingresa tu usuario y contraseña de BL</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <form action="./registroPrestamos.html">
+                  <div class="modal-body">
+                    <div class="form-group">
+                      <label for="userName" class="col-form-label">Usuario</label>
+                      <input type="text" class="form-control" id="userName" placeholder="Usuario">
+                    </div>
+                    <div class="form-group">
+                      <label for="userPass" class="col-form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="userPass" placeholder="Contraseña">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div> <!-- #reactModal -->
+      </nav>
+    </div> <!-- .navegacion -->
+  </header>
+
+  <div class="container-fluid">
+    <div class="parall-1"></div>
+    <h2>Reserva de libros</h2>
+    <div class="text-sec">
+      <p>En esta sección podrás seleccionar uno o más libros que tengamos disponible y reservarlos durante el transcurso del semestre. Además, no tendrás que estar realizando renovaciones semanales de tus libros, contribuyes con el medio ambiente al no tener que imprimir nuevas fotocopias y, si eres de los que ama los libros en físico como nosotros, es una gran oportunidad para tenerlos siempre contigo.</p>
+    </div>
+
+    <div class="parall-2"></div>
+    <h2>Donación de materiales</h2>
+    <div class="text-sec">
+      <p>En esta sección podrás donar fotocopias, copias de libros o libros originales de alguna materia que ya no necesitas usar. Nosotros nos encargaruemos de darle algunos retoques para que puedan ser prestados y disfrutados por otros estudiantes que los necesiten. Adicionalmente, si tienes alguna bata de laboratorio, calculadora, gafas de seguridad de laboratorio o diccionarios de cualquier idioma que ya no uses, puedes traerlo con nosotros, donde más de 200 estudiantes se beneficiarán con l préstamo de estos materiales para el desarrollo de sus actividades académicas.</p>
+    </div>
+
+    <div class="parall-3"></div>
+    <h2>Nuestro equipo</h2>
+    <div class="text-sec">
+      <p>El banco de libros de ANDAR está conformado por estudiantes que decidieron unirse como voluntarios para ayudar a muchos estudiantes como tú a tener los materiales necesarios para afrontar los diversos laboratorios, trabajos en clase y parciales que se presentan a lo largo del semestre. Actualmente, el banco de libros esta conformado por 5 personas (de izquierda a derecha): Juan José Ardila, María Camila Hernández, Ainhoa Martin, Juanita Chacón y Andrés Moreno. Cada uno de nosotros estamos preparados para ayudarte con los materiales que necesites durante tu semestre.</p>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="container-fluid">
+      <nav class="social">
+        <ul>
+          <li> <a href="#" target="_blank" class="fa fa-facebook"></a></li>
+          <li> <a href="#" target="_blank" class="fa fa-instagram"></a></li>
+          <li> <a href="#" target="_blank" class="fa fa-twitter"></a></li>
+          <li> <a href="#" target="_blank" class="fa fa-linkedin"></a></li>
+        </ul>
+        <p class="copyright">
+          All rights reserved &copy;
+        </p>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

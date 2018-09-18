@@ -1,0 +1,78 @@
+.parall-1,
+.parall-2,
+.parall-3,
+.parall-4,
+.parall-5,
+.parall-6,
+.parall-7,
+.parall-8,
+.parall-9 {
+  position: relative;
+  opacity: 0.85;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parall-1 {
+  background-image: url();
+  min-height: 500px;
+  background-size: contain;
+}
+
+.parall-2 {
+  background-image: url();
+  min-height: 500px;
+  background-size: auto;
+}
+
+.parall-3 {
+  background-image: url();
+  min-height: 500px;
+}
+
+.parall-4 {
+  background-image: url();
+  min-height: 500px;
+  background-size: contain;
+}
+
+.parall-5 {
+  background-image: url();
+  min-height: 500px;
+  background-size: contain;
+}
+
+.parall-6 {
+  background-image: url();
+  min-height: 500px;
+  background-size: auto;
+}
+
+.parall-7 {
+  background-image: url();
+  min-height: 500px;
+}
+
+.parall-8 {
+  background-image: url();
+  min-height: 500px;
+
+}
+
+.parall-9 {
+  background-image: url();
+  min-height: 500px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .parall-1, .parall-2, .parall-3, .parall-4, .parall-5, .parall-6, .parall-7, .parall-8, .parall-9 {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  h2 {
+    letter-spacing: 0;
+  }
+}
